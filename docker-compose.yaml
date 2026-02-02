@@ -11,7 +11,7 @@ services:
       - REGISTRY_SECURED=false
       - REGISTRY_TITLE=Coder Docker Registry
     ports:
-      - 8080:80
+      - 8081:80
     container_name: registry-ui
   registry-server:
     container_name: registry-server
